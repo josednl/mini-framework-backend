@@ -1,0 +1,22 @@
+# Node/TS project
+node_modules/
+dist/
+.env
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# TS incremental builds / caches
+.tsbuildinfo
+.cache/
+
+# Test coverage
+coverage/

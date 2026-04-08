@@ -1,0 +1,14 @@
+{
+  "name": "mini-framework-backend-ts",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/examples/simple-app.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^5.3.3"
+  }
+}
